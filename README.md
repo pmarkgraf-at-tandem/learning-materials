@@ -13,7 +13,7 @@ This repository contains an array of learning material for medical device softwa
 
 ## Process
 
-* [Ensemble Programming](Process/ensemble-programming.md)
+* [Software Teaming (aka Mob Programming, aka Ensemble Programming)](Process/software-teaming.md)
 
 ## Coding Practices
 
