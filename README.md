@@ -9,7 +9,7 @@ The first book I recommend is [“Modern Software Engineering” by Dave Farley]
 ## Process
 
 * [Software Teaming (aka Mob Programming, aka Ensemble Programming)](Process/software-teaming.md)
-* [Extreme Programming]()
+* [Extreme Programming](Process/extreme-programming.md)
 
 ## Coding Practices
 
@@ -17,6 +17,7 @@ The first book I recommend is [“Modern Software Engineering” by Dave Farley]
 * [Teaching TDD](Coding-Practices/teaching-TDD.md)
 * [Refactoring](Coding-Practices/refactoring.md)
 * [Coding Katas](Coding-Practices/katas.md)
+* [Architecture and Design](Coding-Practices/architecture-and-design.md)
 
 ## Disclaimer
 
