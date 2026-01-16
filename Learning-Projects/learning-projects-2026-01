@@ -1,0 +1,35 @@
+# Learning Project Ideas
+
+For extended learning sessions, do some larger pragmatic Rust learning. Build up a toolkit of skills that we can use to create future tools. Break into smaller groups and have each explore a library that could be used in later projects. Part of this will be a learning on how to create a project from scratch and how to use external crates (library packages).
+
+## RataTUI
+
+* Create Text User Interfaces: <https://crates.io/crates/ratatui>
+
+## Serde
+
+* Storing and restoring structured data with Serde
+  * Choose your format:
+    * TOML: <https://crates.io/crates/toml>
+    * JSON: <https://crates.io/crates/serde_json>
+    * YAML: <https://crates.io/crates/serde_yml>
+  * This will probably require use [std::fs](https://doc.rust-lang.org/std/fs/index.html) and [std::io](https://doc.rust-lang.org/std/io/index.html)
+
+* Transmit and Receive with PostCard: <https://crates.io/crates/postcard>
+  * Serde serialization/deserialization is very versatile. [Postcard](https://crates.io/crates/postcard) is a wire format built on Serde, which I used for the debug interface on my last project. You can serialize or deserialize complex data structure in a single line of code. It is amazing!
+
+## FFI
+
+* Call Rust from C and C from Rust using Rust/C FFI (Foreign Function Interface) FFI is part of the basic language, but there are lots of helpers, like:
+  * <https://tweedegolf.nl/en/interop>
+    * <https://tweedegolf.nl/en/blog/123/mix-in-rust>
+  * <https://github.com/rust-lang/rust-bindgen>
+  * <https://github.com/mozilla/cbindgen>
+  * <https://github.com/rust-unofficial/awesome-rust?tab=readme-ov-file#ffi>
+  * <https://www.google.com/search?q=rust+ffi+guide+site:github.com>
+
+## Clap
+
+* Command line parsing with Clap: <https://crates.io/crates/clap>
+
+## end
